@@ -155,15 +155,28 @@ Because financial data is time-dependent, random train/test splitting is avoided
 
 Instead, models are repeatedly trained on past data and evaluated on subsequent unseen observations.
 
-```text
-TRAIN ───────── TEST
+Fold 1
 
-TRAIN ─────────────── TEST
+TRAIN
+|---------------------------------------|
+                                        | TEST |
+                                        60 days
 
-TRAIN ─────────────────── TEST
 
-TRAIN ──────────────────────── TEST
-```
+Fold 2
+
+TRAIN
+|---------------------------------------------|
+                                              | TEST |
+                                              60 days
+
+
+Fold 3
+
+TRAIN
+|--------------------------------------------------|
+                                                   | TEST |
+                                                   60 days
 
 This helps prevent look-ahead bias and provides a more realistic estimate of out-of-sample performance.
 
