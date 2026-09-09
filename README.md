@@ -365,8 +365,7 @@ $$
 
 ### Directional Accuracy
 
-$$
-DA=
+$$DA=
 \frac{1}{n}
 \sum_i
 \mathbf{1}
