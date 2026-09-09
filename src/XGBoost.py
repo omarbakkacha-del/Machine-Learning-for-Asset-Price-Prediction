@@ -168,7 +168,14 @@ def run_xgboost(ticker: str = "AAPL"):
 
     print(f"Model saved to: {output_path}")
 
-    return model, X_test, y_test, predictions
+    test_dates = df["date"].iloc[split_index:].reset_index(drop=True)
+
+    return (
+    model,
+    X_test,
+    y_test,
+    predictions,
+    test_dates)
 
 
 if __name__ == "__main__":

@@ -502,12 +502,14 @@ def run_lstm(
         f"Model saved to: {output_path}"
     )
 
-    return (
-        model,
-        X_test_tensor,
-        y_test_tensor,
-        predictions
-    )
+    test_dates = df["date"].iloc[split_index:].reset_index(drop=True)
+    test_dates = test_dates.iloc[SEQUENCE_LENGTH - 1:].reset_index(drop=True)
+
+    return (model,
+    X_test_tensor,
+    y_test_tensor,
+    predictions,
+    test_dates)
 
 
 # ============================================================
