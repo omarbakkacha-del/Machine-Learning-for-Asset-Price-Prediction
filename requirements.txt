@@ -6,4 +6,4 @@ torch
 matplotlib
 yfinance
 jupyter
-pytest
+pytestscipy
