@@ -95,9 +95,7 @@ Features include:
 The primary prediction target is the future return:
 
 $$
-r_{t+1}
-=
-\log\left(\frac{P_{t+1}}{P_t}\right)
+r_{t+1} =\log\left(\frac{P_{t+1}}{P_t}\right)
 $$
 
 where \(P_t\) is the asset price at time \(t\).
