@@ -354,8 +354,7 @@ $$
 ### Coefficient of determination
 
 $$
-R^2
-=
+R^2=
 1-
 \frac{
 \sum_i(y_i-\hat y_i)^2
