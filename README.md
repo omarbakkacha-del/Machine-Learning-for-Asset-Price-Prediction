@@ -371,8 +371,7 @@ DA=
 \sum_i
 \mathbf{1}
 \left[
-\operatorname{sign}(\hat y_i)
-=
+\operatorname{sign}(\hat y_i)=
 \operatorname{sign}(y_i)
 \right].
 $$
