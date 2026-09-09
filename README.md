@@ -102,19 +102,6 @@ where \(P_t\) is the asset price at time \(t\).
 
 ---
 
-## Phase 3 — Baseline Models
-
-Implement simple models that provide a reference point for evaluating more sophisticated approaches.
-
-Models:
-
-* Random Walk
-* Linear Regression
-
-These baselines establish how much improvement is obtained from machine learning.
-
----
-
 ## Phase 4 — XGBoost
 
 Train an XGBoost regression model using the engineered financial features.
