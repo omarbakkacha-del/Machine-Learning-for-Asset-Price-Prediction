@@ -116,9 +116,7 @@ Let \(P_t\) denote the closing price at time \(t\).
 
 The prediction target is the next-day logarithmic return
 
-$$
-r_{t+1}
-=
+$$r_{t+1}=
 \log\left(\frac{P_{t+1}}{P_t}\right).
 $$
 
