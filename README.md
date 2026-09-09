@@ -888,14 +888,4 @@ Possible extensions include:
 * multiple-testing corrections;
 * portfolio construction across multiple assets.
 
----
 
-# Disclaimer
-
-This project is intended for **research and educational purposes only**.
-
-The results do not constitute financial advice, investment advice, or a recommendation to buy or sell any financial asset.
-
-Past simulated performance does not imply future performance.
-
-No claim is made that the models developed in this repository can reliably predict future financial markets or generate profitable trading strategies.
