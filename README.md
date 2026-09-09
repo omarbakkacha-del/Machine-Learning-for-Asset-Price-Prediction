@@ -447,7 +447,7 @@ src/walk_forward.py
 Predictions are converted into a simple long/short trading signal:
 
 $$w_t=
-\operatorname{sign}(\hat r_{t+1}).$$
+sign(\hat r_{t+1}).$$
 
 Transaction costs are incorporated according to
 
