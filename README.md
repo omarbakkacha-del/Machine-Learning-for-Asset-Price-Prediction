@@ -102,7 +102,7 @@ where \(P_t\) is the asset price at time \(t\).
 
 ---
 
-## Phase 4 — XGBoost
+## Phase 3 — XGBoost
 
 Train an XGBoost regression model using the engineered financial features.
 
@@ -116,7 +116,7 @@ where \(X_t\) contains information available at time \(t\).
 
 ---
 
-## Phase 5 — LSTM
+## Phase 4 — LSTM
 
 Implement a Long Short-Term Memory neural network to learn temporal dependencies from sequences of historical observations.
 
@@ -134,7 +134,7 @@ $$
 
 ---
 
-## Phase 6 — Model Evaluation
+## Phase 5 — Model Evaluation
 
 Evaluate every model using the same unseen test data.
 
@@ -149,7 +149,7 @@ All models are evaluated under the same conditions to ensure a meaningful compar
 
 ---
 
-## Phase 7 — Walk-Forward Validation
+## Phase 6 — Walk-Forward Validation
 
 Because financial data is time-dependent, random train/test splitting is avoided.
 
@@ -169,7 +169,7 @@ This helps prevent look-ahead bias and provides a more realistic estimate of out
 
 ---
 
-## Phase 8 — Backtesting
+## Phase 7 — Backtesting
 
 Convert model predictions into trading signals and evaluate whether the predictions can produce a useful trading strategy.
 
@@ -264,8 +264,8 @@ machine-learning-asset-price-prediction/
 ├── src/
 │   ├── data.py
 │   ├── features.py
-│   ├── models.py
-│   ├── training.py
+│   ├── XGBoost.py
+│   ├── LSTM.py
 │   ├── evaluation.py
 │   └── backtesting.py
 │
