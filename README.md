@@ -452,10 +452,7 @@ sign(\hat r_{t+1}).$$
 Transaction costs are incorporated according to
 
 $$
-R^{strategy}_{t+1}
-=
-w_t r_{t+1}
--
+R^{strategy}_{t+1}=w_t r_{t+1}-
 c|w_t-w_{t-1}|,
 $$
 
@@ -470,8 +467,7 @@ Thus the backtest does not assume costless trading.
 Portfolio wealth is computed from cumulative log returns:
 
 $$
-W_t
-=
+W_t=
 \exp
 \left(
 \sum_{i\leq t}
