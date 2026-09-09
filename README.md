@@ -210,7 +210,7 @@ Transaction costs are incorporated into the backtest.
 
 ---
 
-## Phase 9 — Final Comparison
+## Phase 8 — Final Comparison
 
 All models are compared using both predictive and financial performance.
 
